@@ -1,0 +1,70 @@
+ion-content{
+    --ion-background-color: rgb(154, 151, 151);
+   
+}
+.search-container {
+    margin: 20px; 
+  }
+
+  .search-container ion-button {
+    --background: #6844ea; 
+    --color: white;
+    margin:0;
+  }
+
+  .definitions-container {
+    margin: 20px; 
+  }
+  
+  .definitions-container h2,
+  .definitions-container h3 {
+    margin-bottom: 20px;
+  }
+  
+  .definitions-container li {
+    margin-bottom: 20px; 
+  }
+  ion-searchbar {
+    --ion-background-color: #131313;   
+  }
+  ion-searchbar input {
+    color: white !important; 
+  }
+  
+  ion-searchbar::part(searchbar-input-placeholder) {
+    color: white;
+  }
+  
+  ion-card {
+    --ion-background-color: #131313;   
+    color: rgb(236, 229, 229);
+  }
+
+  ion-card-title {
+    color: rgb(236, 229, 229); /* Set the color of the word (ion-card-title) to white */
+  }
+  
+  /* Additional styles for the text content inside ion-card */
+  ion-card h3,
+  ion-card ul,
+  ion-card li {
+    color: white;
+  }
+  
+  .save-button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+  }
+  .save-button-container ion-button {
+    --background: #6844ea;
+    --color: white;
+    margin: 10px;
+  }
+
+  
+
+
+
+  

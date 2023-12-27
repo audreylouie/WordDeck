@@ -1,0 +1,36 @@
+h2{
+    margin: 20px;
+}
+
+ion-card {
+    --ion-background-color: #131313;   
+    color: white;
+  }
+
+  .card-front {
+    height: 100px; 
+  }
+
+ion-button{
+    margin: 20px;
+    --background: #6844ea;
+    --color: white;
+}
+
+.quiz ion-button{
+    margin-left: 0;
+}
+.quiz h2{
+    margin-bottom: 20px;
+}
+.quiz input[type="text"] {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+.quiz input{
+    background-color: rgb(154, 151, 151);
+}
+li, p{
+    padding: 10px;
+}
